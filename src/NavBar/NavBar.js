@@ -1,4 +1,3 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -6,10 +5,14 @@ const NavBar = () => {
     return (
         <StyledNav>
             <nav>
-                <a href='https://github.com/' target='_blank'>
+                <a href='https://github.com/' target='_blank' rel='noreferrer'>
                     <span>Github</span>
                 </a>
-                <a href='https://www.linkedin.com/feed/' target='_blank'>
+                <a
+                    href='https://www.linkedin.com/feed/'
+                    target='_blank'
+                    rel='noreferrer'
+                >
                     <span>LinkedIn</span>
                 </a>
             </nav>

@@ -1,7 +1,5 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 import NavBar from '../NavBar/NavBar';
-import Todo from '../Todo/Todo';
 import styled from 'styled-components';
 
 const Home = () => {
