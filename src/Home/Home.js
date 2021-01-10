@@ -44,9 +44,12 @@ const StyledHome = styled.div`
 
     .timestamp {
         color: white;
+        height: 100%;
+        width: 100%;
+        display: flex;
         position: fixed;
-        left: 40%;
-        top: 35%;
+        align-items: center;
+        justify-content: center;
         font-size: 1.4rem;
     }
 
