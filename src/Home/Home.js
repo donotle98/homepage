@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <StyledHome>
             <div className='background-image'></div>
-            <div>
+            <div className='nav-bar'>
                 <NavBar />
             </div>
             <div className='timestamp'>
@@ -30,6 +30,9 @@ const Home = () => {
 };
 
 const StyledHome = styled.div`
+    .nav-bar {
+        z-index: 1000;
+    }
     .background-image {
         position: fixed;
         width: 100%;

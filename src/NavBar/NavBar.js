@@ -29,6 +29,7 @@ const StyledNav = styled.div`
         top: 0;
         display: flex;
         flex-direction: column;
+        z-index: 1000;
         a {
             text-decoration: none;
             margin-bottom: 1rem;
