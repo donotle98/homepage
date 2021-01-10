@@ -37,7 +37,7 @@ const StyledHome = styled.div`
         top: 0;
         left: 0;
         z-index: -1000;
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
             url('https://images.unsplash.com/photo-1521464302861-ce943915d1c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80');
         background-size: cover cover;
     }
