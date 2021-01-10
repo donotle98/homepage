@@ -39,12 +39,13 @@ const StyledHome = styled.div`
         z-index: -1000;
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
             url('https://images.unsplash.com/photo-1521464302861-ce943915d1c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80');
+        background-size: cover cover;
     }
 
     .timestamp {
         color: white;
         position: fixed;
-        left: 30%;
+        left: 40%;
         top: 35%;
         font-size: 1.4rem;
     }
