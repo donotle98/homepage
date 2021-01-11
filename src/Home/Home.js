@@ -42,7 +42,8 @@ const StyledHome = styled.div`
         z-index: -1000;
         background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
             url('https://images.unsplash.com/photo-1521464302861-ce943915d1c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80');
-        background-size: cover cover;
+        background-size: cover;
+        background-position: no-repeat;
     }
 
     .timestamp {
@@ -59,7 +60,7 @@ const StyledHome = styled.div`
     .todo-btn {
         position: fixed;
         bottom: 1rem;
-        left: 45%;
+        right: 1rem;
         text-decoration: none;
         margin-bottom: 1rem;
         color: white;
@@ -75,6 +76,7 @@ const StyledHome = styled.div`
         background-color: white;
         border: solid 2px black;
         transition: 0.5s;
+        box-shadow: -20px -20px white;
     }
 `;
 

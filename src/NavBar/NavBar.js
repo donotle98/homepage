@@ -45,6 +45,7 @@ const StyledNav = styled.div`
             background-color: white;
             border: solid 2px black;
             transition: 0.5s;
+            box-shadow: -2px -2px orange;
         }
     }
 `;
